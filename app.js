@@ -1,6 +1,6 @@
 const CELULARES = [
   {
-    id: 1, nombre: 'Galaxy S24 Ultra', marca: 'Samsung', precio: 1299,
+    id: 1, nombre: 'Galaxy S24 Ultra', marca: 'Samsung', precio: 5200000,
     memoria: '12GB RAM / 256GB', pantalla: '6.8" Dynamic AMOLED 2X',
     bateria: '5000 mAh', camara: '200MP + 50MP + 12MP + 10MP',
     color: 'Titanio Negro', stock: 15,
@@ -8,7 +8,7 @@ const CELULARES = [
     img: 'https://coresg-normal.trae.ai/api/ide/v1/text_to_image?prompt=Samsung%20Galaxy%20S24%20Ultra%20smartphone%20black%20titanium%20product%20photo%20white%20background&image_size=square_hd'
   },
   {
-    id: 2, nombre: 'iPhone 15 Pro Max', marca: 'Apple', precio: 1399,
+    id: 2, nombre: 'iPhone 15 Pro Max', marca: 'Apple', precio: 5600000,
     memoria: '8GB RAM / 256GB', pantalla: '6.7" Super Retina XDR',
     bateria: '4441 mAh', camara: '48MP + 12MP + 12MP',
     color: 'Titanio Natural', stock: 10,
@@ -16,7 +16,7 @@ const CELULARES = [
     img: 'https://coresg-normal.trae.ai/api/ide/v1/text_to_image?prompt=iPhone%2015%20Pro%20Max%20natural%20titanium%20smartphone%20product%20photo%20white%20background&image_size=square_hd'
   },
   {
-    id: 3, nombre: 'Xiaomi 14 Ultra', marca: 'Xiaomi', precio: 999,
+    id: 3, nombre: 'Xiaomi 14 Ultra', marca: 'Xiaomi', precio: 4000000,
     memoria: '16GB RAM / 512GB', pantalla: '6.73" AMOLED LTPO',
     bateria: '5000 mAh', camara: '50MP x4 Leica',
     color: 'Blanco', stock: 20,
@@ -24,7 +24,7 @@ const CELULARES = [
     img: 'https://coresg-normal.trae.ai/api/ide/v1/text_to_image?prompt=Xiaomi%2014%20Ultra%20white%20smartphone%20Leica%20camera%20product%20photo%20white%20background&image_size=square_hd'
   },
   {
-    id: 4, nombre: 'Galaxy A54 5G', marca: 'Samsung', precio: 449,
+    id: 4, nombre: 'Galaxy A54 5G', marca: 'Samsung', precio: 1800000,
     memoria: '8GB RAM / 128GB', pantalla: '6.4" Super AMOLED',
     bateria: '5000 mAh', camara: '50MP + 12MP + 5MP',
     color: 'Grafito', stock: 30,
@@ -32,7 +32,7 @@ const CELULARES = [
     img: 'https://coresg-normal.trae.ai/api/ide/v1/text_to_image?prompt=Samsung%20Galaxy%20A54%20graphite%20smartphone%20product%20photo%20white%20background&image_size=square_hd'
   },
   {
-    id: 5, nombre: 'iPhone 15', marca: 'Apple', precio: 799,
+    id: 5, nombre: 'iPhone 15', marca: 'Apple', precio: 3200000,
     memoria: '6GB RAM / 128GB', pantalla: '6.1" Super Retina XDR',
     bateria: '3349 mAh', camara: '48MP + 12MP',
     color: 'Rosa', stock: 25,
@@ -40,7 +40,7 @@ const CELULARES = [
     img: 'https://coresg-normal.trae.ai/api/ide/v1/text_to_image?prompt=iPhone%2015%20pink%20smartphone%20product%20photo%20white%20background&image_size=square_hd'
   },
   {
-    id: 6, nombre: 'Redmi Note 13 Pro+', marca: 'Xiaomi', precio: 499,
+    id: 6, nombre: 'Redmi Note 13 Pro+', marca: 'Xiaomi', precio: 2000000,
     memoria: '12GB RAM / 256GB', pantalla: '6.67" AMOLED 1.5K',
     bateria: '5000 mAh', camara: '200MP + 8MP + 2MP',
     color: 'Morado', stock: 40,
@@ -48,7 +48,7 @@ const CELULARES = [
     img: 'https://coresg-normal.trae.ai/api/ide/v1/text_to_image?prompt=Xiaomi%20Redmi%20Note%2013%20Pro%20Plus%20purple%20smartphone%20product%20photo%20white%20background&image_size=square_hd'
   },
   {
-    id: 7, nombre: 'Edge 40 Pro', marca: 'Motorola', precio: 799,
+    id: 7, nombre: 'Edge 40 Pro', marca: 'Motorola', precio: 3200000,
     memoria: '12GB RAM / 256GB', pantalla: '6.67" POLED 165Hz',
     bateria: '4600 mAh', camara: '50MP + 12MP + 50MP',
     color: 'Azul Lunar', stock: 18,
@@ -56,7 +56,7 @@ const CELULARES = [
     img: 'https://coresg-normal.trae.ai/api/ide/v1/text_to_image?prompt=Motorola%20Edge%2040%20Pro%20blue%20smartphone%20product%20photo%20white%20background&image_size=square_hd'
   },
   {
-    id: 8, nombre: 'P60 Pro', marca: 'Huawei', precio: 1099,
+    id: 8, nombre: 'P60 Pro', marca: 'Huawei', precio: 4400000,
     memoria: '12GB RAM / 512GB', pantalla: '6.67" OLED LTPO',
     bateria: '4815 mAh', camara: '48MP + 48MP + 64MP',
     color: 'Perla Blanca', stock: 12,
@@ -64,7 +64,7 @@ const CELULARES = [
     img: 'https://coresg-normal.trae.ai/api/ide/v1/text_to_image?prompt=Huawei%20P60%20Pro%20pearl%20white%20smartphone%20product%20photo%20white%20background&image_size=square_hd'
   },
   {
-    id: 9, nombre: 'Moto G84', marca: 'Motorola', precio: 299,
+    id: 9, nombre: 'Moto G84', marca: 'Motorola', precio: 1200000,
     memoria: '8GB RAM / 256GB', pantalla: '6.5" OLED 120Hz',
     bateria: '5000 mAh', camara: '50MP + 8MP',
     color: 'Verde Marino', stock: 50,
@@ -84,7 +84,7 @@ const state = {
 };
 
 const fmt = v => new Intl.NumberFormat('es-CO', {
-  style: 'currency', currency: 'USD', maximumFractionDigits: 0
+  style: 'currency', currency: 'COP', maximumFractionDigits: 0
 }).format(v);
 
 const $  = s => document.querySelector(s);
@@ -124,9 +124,9 @@ function getFiltrados() {
       c.marca.toLowerCase().includes(q) ||
       c.color.toLowerCase().includes(q)
     )) return false;
-    if (state.precio === '0-500'   && c.precio > 500)   return false;
-    if (state.precio === '500-1000' && (c.precio < 500 || c.precio > 1000)) return false;
-    if (state.precio === '1000+'    && c.precio < 1000) return false;
+    if (state.precio === '0-2m'      && c.precio > 2000000)  return false;
+    if (state.precio === '2m-4m'    && (c.precio < 2000000 || c.precio > 4000000)) return false;
+    if (state.precio === '4m+'      && c.precio < 4000000)  return false;
     return true;
   });
   switch (state.orden) {
